@@ -1,4 +1,4 @@
-# @tools/ip-url
+# @untools/ip-url
 
 A simple utility to get the local IP address of your machine and format URLs with it instead of using "localhost".
 

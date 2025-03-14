@@ -1,5 +1,5 @@
 {
-  "name": "@tools/ip-url",
+  "name": "@untools/ip-url",
   "version": "0.0.1",
   "description": "Get local IP address and format URLs with it",
   "main": "dist/index.js",
