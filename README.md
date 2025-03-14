@@ -7,13 +7,13 @@ A simple utility to get the local IP address of your machine and format URLs wit
 ### Global Installation
 
 ```bash
-npm install -g local-ip-url
+npm install -g @untools/ip-url
 ```
 
 ### Local Installation
 
 ```bash
-npm install local-ip-url
+npm install @untools/ip-url
 ```
 
 ## Usage
@@ -45,7 +45,7 @@ local-ip --help
 ### As a Library
 
 ```typescript
-import { getPrimaryIP, formatIPUrl, getLocalIPs } from 'local-ip-url';
+import { getPrimaryIP, formatIPUrl, getLocalIPs } from '@untools/ip-url';
 
 // Get the primary IP address
 const ip = getPrimaryIP(); // Returns something like '192.168.1.5'
