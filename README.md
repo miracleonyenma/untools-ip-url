@@ -24,22 +24,22 @@ After installing globally, you can use it as follows:
 
 ```bash
 # Get the default URL (http://your-ip:3000)
-local-ip
+ip-url
 
 # Specify a port
-local-ip 8080
+ip-url 8080
 
 # Use HTTPS
-local-ip --protocol https
+ip-url --protocol https
 
 # Use IPv6
-local-ip --family IPv6
+ip-url --family IPv6
 
 # Show all available IP addresses
-local-ip --all
+ip-url --all
 
 # Get help
-local-ip --help
+ip-url --help
 ```
 
 ### As a Library

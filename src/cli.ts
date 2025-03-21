@@ -8,7 +8,7 @@ const args = process.argv.slice(2);
 // Help command
 if (args.includes("--help") || args.includes("-h")) {
   console.log(`
-Usage: local-ip [options] [port]
+Usage: ip-url [options] [port]
 
 Options:
   --protocol, -p <protocol>  Protocol to use (http or https). Default: http.
@@ -17,10 +17,10 @@ Options:
   --help, -h                 Show this help message.
 
 Examples:
-  local-ip                   Output http://your-ip:3000
-  local-ip 8080              Output http://your-ip:8080
-  local-ip --protocol https  Output https://your-ip:3000
-  local-ip --all             List all available IP addresses
+  ip-url                   Output http://your-ip:3000
+  ip-url 8080              Output http://your-ip:8080
+  ip-url --protocol https  Output https://your-ip:3000
+  ip-url --all             List all available IP addresses
   `);
   process.exit(0);
 }
