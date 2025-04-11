@@ -21,7 +21,7 @@
     "localhost",
     "cli"
   ],
-  "author": "Your Name",
+  "author": "Miracle Onyenma",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^29.5.14",
